@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1WkQvZHwXqFX0QHK629bb4rLAM-Y5MDGV
 """
 
-# Commented out IPython magic to ensure Python compatibility.
 # ============================================================
 # RL CLOUD RESOURCE SCHEDULING — COMPLETE IMPLEMENTATION
 # Student: C026-01-0736/2020
@@ -869,9 +868,8 @@ print("📁 Upload to: https://github.com/wamuyu247/neural-network-lab")
 
 import getpass
 
-# ── SECURE: Enter token when prompted (not hardcoded) ──
 print("Enter your GitHub Personal Access Token:")
-GITHUB_TOKEN = getpass.getpass()  # ← This hides what you type
+GITHUB_TOKEN = getpass.getpass()  
 
 # ── Configure Git ──
 !git config --global user.email "faith.wamuyu20@students.dkut.ac.ke"
