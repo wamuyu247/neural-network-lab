@@ -1,0 +1,4 @@
+Agent,Mean Reward,SLA Violation %,Beats Random?
+Random,-83.051,5.51,False
+Q-Learning,-352.31000000000046,37.21,False
+DQN,30.935999999999968,0.03,True

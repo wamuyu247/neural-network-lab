@@ -1,0 +1,61 @@
+{
+  "student": {
+    "registration_number": "C026-01-0736/2020",
+    "name": "Irungu faith wamuyu",
+    "submission_date": "2026-07-29 09:21:19"
+  },
+  "project": "ML Cloud Optimisation Lab",
+  "outcome": 4,
+  "title": "Reinforcement Learning Agent Development & Cross-Stage Reporting",
+  "timestamp": "2026-07-29T09:21:19.366429",
+  "seed": 42,
+  "stages": {
+    "stage4": {
+      "stage": 4,
+      "name": "Reinforcement Learning",
+      "agents": {
+        "Random": {
+          "mean_reward": -83.051,
+          "sla_violation_rate": 0.055099999999999996
+        },
+        "Q-Learning": {
+          "mean_reward": -352.31000000000046,
+          "sla_violation_rate": 0.3721
+        },
+        "DQN": {
+          "mean_reward": 30.935999999999968,
+          "sla_violation_rate": 0.0003
+        }
+      },
+      "best_agent": "DQN",
+      "best_mean_reward": 30.935999999999968,
+      "sla_requirement_met": true
+    },
+    "stage5": {
+      "stage": 5,
+      "name": "Final Report",
+      "summary": {
+        "best_agent": "DQN",
+        "best_mean_reward": 30.935999999999968,
+        "sla_requirement_met": true,
+        "random_baseline": -83.051,
+        "ql_baseline": -352.31000000000046,
+        "dqn_baseline": 30.935999999999968
+      }
+    }
+  },
+  "leaderboard": {
+    "best_mean_reward": 30.935999999999968,
+    "sla_requirement_met": true,
+    "best_agent": "DQN",
+    "student_reg_no": "C026-01-0736/2020"
+  },
+  "evidence_checklist": {
+    "mdp_defined": true,
+    "q_learning_trained": true,
+    "dqn_trained": true,
+    "benchmarked_against_random": true,
+    "trained_agent_outperforms_random": true,
+    "sla_violation_below_10_percent": true
+  }
+}

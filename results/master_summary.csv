@@ -1,0 +1,17 @@
+Metric,Value
+Student Registration Number,C026-01-0736/2020
+Student Name,Irungu faith wamuyu
+Submission Date,2026-07-29 09:21:19
+Best Agent,DQN
+Best Mean Reward,30.94
+SLA Requirement Met (<10%),✅ YES
+DQN Mean Reward,30.94
+Q-Learning Mean Reward,-352.31
+Random Baseline Mean Reward,-83.05
+DQN SLA Violation Rate (%),0.03%
+Q-Learning SLA Violation Rate (%),37.21%
+Random SLA Violation Rate (%),5.51%
+DQN Beats Random?,✅ YES
+MDP Defined?,✅ YES
+Q-Learning Trained?,✅ YES
+DQN Trained?,✅ YES
